@@ -7,3 +7,16 @@
     box-shadow: none;
     font-family: "Inter";
 }
+
+/* MOBILE: redonda */
+.profile-img {
+  border-radius: 50%;
+  display: block;
+}
+
+/* DESKTOP: quadrada com cantos arredondados */
+@media (min-width: 768px) {
+  .profile-img {
+    border-radius: 0.5rem; /* equivalente ao .rounded-lg */
+  }
+}
