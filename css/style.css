@@ -8,6 +8,11 @@
     font-family: "Inter";
 }
 
+.half{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .profile-img {
   border-radius: 50%;
   display: block;
@@ -15,7 +20,11 @@
 
 
 @media (min-width: 768px) {
-  .profile-img {
-    border-radius: 0.5rem; 
-  }
+    .half {
+        width: 25%;
+    }
+
+    .profile-img {
+        border-radius: 0.5rem;
+    }
 }
